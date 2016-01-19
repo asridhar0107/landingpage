@@ -1,0 +1,69 @@
+/* Tablet Portrait size (devices and browsers) */
+@media only screen and (max-width: 1200px){
+.latest-box{ height:300px;}
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+	#section1 .crafting-box .row .col{ width:50%}
+	.section-header .section-in-header{ font-size:20px;}
+
+}
+
+/*iPad and Tablet*/
+@media (min-width: 768px) and (max-width: 959px) {
+	.mobile-first-page{ display:block; margin-top:-20px;}
+	.desktop{ display:none}
+		.mobile-first-page{ display:block; margin-top:-20px;}
+	.desktop{ display:none}
+	.top-contain{ font-size:30px; margin-bottom:250px;}
+	.img-box{ display:none}
+	#section1 .crafting-box .row .col, #section2 .crafting-box .row .col{ width:100%}
+	.section-header .section-in-header{ font-size:20px;}
+	#section4 .col{ width:100%}
+	.skill-text p{ padding:50px 0px 0px 0}
+	.progresing-bar{ margin:20px 0}
+}
+@media only screen and (max-width: 980px) {
+	#section3 .col-1-4, #section3 .col-1-2{ width:100%}
+	.latest-box{ height:auto}
+	.latest-box img{ display:none;}
+	.crafting-you{ padding:30px; width:100%; float:left}
+	.section-header{ float:none; margin-bottom:0}
+	.crafting-you li{ font-size:16px; width:100%}
+	p{ margin:0 0 10px 0}
+	.lates-text{float:left;width: 100%; padding:10px; min-height:auto}
+	
+}
+@media only screen and (max-width: 768px) {
+	.header{ margin-bottom:20px;}
+	#section4 .col{ width:100%}
+	.skill-text p{ padding:50px 0px 0px 0}
+	.progresing-bar{ margin:20px 0}
+	.mobile-first-page{ display:block; margin-top:-20px;}
+	.desktop{ display:none}
+	.top-contain{ font-size:30px; margin-bottom:30px;}
+	.img-box{ display:none}
+	#section1 .crafting-box .row .col, #section2 .crafting-box .row .col{ width:100%}
+	.section-header .section-in-header{ font-size:20px;}
+	.crafting-you ul{ margin:50px 0}
+	
+}
+@media only screen and (max-width: 600px) {
+	
+}
+@media only screen and (max-width: 479px) {
+	#section1 .crafting-box .row .col{    margin-left: -60px;width: 90%;}
+	#section2 .crafting-box .row .col, #section4 .col{    margin-left: 90px;width: 90%;}
+	.cbp-so-init .cbp-so-side{ opacity:1 !important}
+	.progresing-bar{ margin:20px 0 20px -80px}
+	.footer .col{ margin-left:0 !important}
+	.section-header .section-in-header{ font-size:14px; padding:20px 10px; margin:0 10px}
+	.crafting-you li img{ width:30px;}
+	.latest-box .lates-news{ padding:5px 10px}
+	.crafting-you{ padding:20px 10px 10px 10px}
+	.crafting-you ul{ margin:20px 0}
+	.w80{ width:100%}
+	.w70{ width:95%}
+	.w65{ width:90%}
+	
+}
